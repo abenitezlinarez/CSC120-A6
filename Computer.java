@@ -49,6 +49,9 @@ public class Computer {
         this.operatingSystem = "None"; 
     }
 
+    public String getOS(){
+        return this.operatingSystem;
+    }
     /**
      * Get year computer was made 
      * @return year computer was made 

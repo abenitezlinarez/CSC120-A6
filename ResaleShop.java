@@ -23,8 +23,8 @@ public class ResaleShop {
      * @param newComputer the computer to add to inventory 
      * @throws Exception if computer is already in inventory  
      */
-    public void buy(Computer newComputer) throws Exception {
-        newComputer = new Computer("2019 MacBook Pro", "Intel", 256, 16, "High Sierra", 2019, 1000);
+    public void buy(Computer newComputer) throws Exception { //edited
+        //newComputer = new Computer("2019 MacBook Pro", "Intel", 256, 16, "High Sierra", 2019, 1000);
         this.inventory.add(newComputer); 
     }
 
@@ -44,7 +44,7 @@ public class ResaleShop {
         if (inventory.isEmpty()) {
             System.out.println("Inventory is empty");
         } else {
-            for (int i = 0; i <= this.inventory.size(); i++){
+            for (int i = 0; i <= this.inventory.size(); i++){ //should i start at 1?
                 System.out.println(inventory.get(i));
             }
         }

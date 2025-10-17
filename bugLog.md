@@ -1,10 +1,10 @@
 ## Bug 1
-Brief description:  
-Failed unit test: 
-
+Brief description: Buy only adds the computer that is created in the method
+Failed unit test: TestBuy()
+ 
 ## Bug 2
-Brief description:  
-Failed unit test: 
+Brief description: 
+Failed unit test: TestRefurbish()
 
 ## Bug 3
 Brief description:  
