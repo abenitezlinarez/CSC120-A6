@@ -65,6 +65,7 @@ public class Computer {
      */
     public String toString() {
         return this.description + "\n" + this.processorType  + "\n" + this.hardDriveCapacity  + "\n" + this.memory  + "\n" + this.operatingSystem  + "\n" + this.yearMade  + "\n" + this.price;  
+        
     }
 
     public static void main(String[] args) {

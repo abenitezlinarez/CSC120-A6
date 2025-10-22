@@ -24,7 +24,7 @@ public class ResaleShop {
      * @throws Exception if computer is already in inventory  
      */
     public void buy(Computer newComputer) throws Exception { //edited
-        //newComputer = new Computer("2019 MacBook Pro", "Intel", 256, 16, "High Sierra", 2019, 1000);
+        newComputer = new Computer("2019 MacBook Pro", "Intel", 256, 16, "High Sierra", 2019, 1000);
         this.inventory.add(newComputer); 
     }
 
